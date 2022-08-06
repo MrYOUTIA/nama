@@ -86,8 +86,8 @@ bahasa = "id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7"
 
 ##############################
  # USER AGENT #
-ugen2=['Mozilla/5.0 (Linux; Android 5.1.1; A37f Build/LMY47V; wv) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.96 Mobile Safari/537.36']
-ugen=['Mozilla/5.0 (Linux; U; Android 5.0.2; en-US; Redmi Note 2 Build/LRX22G) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.108 UCBrowser/13.4.0.1306 Mobile Safari/537.36']
+ugen2=['Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/9.0.0 Mobile/15E148 Safari/604.1']
+ugen=['Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/9.0.0 Mobile/15E148 Safari/604.1']
 
 try:
     prox= requests.get('https://api.proxyscrape.com/v2/?request=displayproxies&protocol=socks4&timeout=100000&country=all&ssl=all&anonymity=all').text
